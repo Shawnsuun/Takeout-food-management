@@ -9,9 +9,14 @@ Frontend：/front/index.html
 Backend：/backend/index.html
 
 > The local default is these two addresses:
-> Frontend：[localhost:8080/front/index.html](localhost:8080/front/index.html)
-> Backend：[localhost:8080/backend/index.html](localhost:8080/backend/index.html)
 > 
+> Frontend：[localhost:8080/front/index.html](localhost:8080/front/index.html)
+> 
+> Backend：[localhost:8080/backend/index.html](localhost:8080/backend/index.html)
+
+
+> For test purpose, use username "admin" and password "123456", You can modify the database information in the src/main/resources/application.yml file
+>
 ## Food delivery
 
 &emsp;&emsp;This project is a front-end and back-end separated takeout management system of SpringBoot+MybatisPlus + Mysql technology stack.
@@ -25,7 +30,7 @@ Backend：/backend/index.html
 - Backend preview
 
 ![Backend](https://github.com/codermast/Takeout-food/blob/master/resource/%E6%88%AA%E5%B1%8F2022-12-01%2019.37.24.png?raw=true)
-## 🔷Tech Stacks
+## Tech Stacks
 - SpringBoot
 - MySql
 - Mybatis Plus
@@ -59,7 +64,7 @@ Backend：/backend/index.html
    3. When deploying on the server, package the project into a `jar` package and run it using `java -jar package name`
    4. Visit the backend: [localhost:8080/backend/page/login.html](http://localhost:8080/backend/page/login.html)
    5. Visit the front desk: [localhost:8080/front/page/login.html](http://localhost:8080/front/page/login.html)
-## ❤️‍🩹Version content
+## Version content
 ### V1 version
 - SpringBoot
 - MybatisPlus
